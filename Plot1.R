@@ -3,7 +3,6 @@
 ######################################################
 
 ##load data
-setwd("C:\\Users\\Ginge\\Dropbox\\aBIOS\\4_project1")
 data <- read.table("household_power_consumption.txt",
                    header = T, sep= ";",na.strings = "?")
 
